@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  caret-color: transparent;
+}
+
+body {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+img {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+}
+
+.info-tab {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: black;
+  opacity: 0.8;
+}
+
+.info-tab p {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+@media (max-width: 420px) {
+  img {
+    width: 20%;
+    height: 5%;
+  }
+}
